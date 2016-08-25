@@ -9,6 +9,6 @@ result = 0
 
 # show result
 print(result)
-totalMs = (time.time() - start) * 1000
-print("solved in " + str(totalMs) + " ms")
+totalMs = (time.time() - start)
+print("solved in " + str(totalMs) + " s")
 

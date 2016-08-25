@@ -29,5 +29,5 @@ getEvenFibonacciSum(1,2,4000000)
 
 # show result
 print(result)
-totalMs = (time.time() - start) * 1000
-print("solved in " + str(totalMs) + " ms")
+totalS = (time.time() - start)
+print("solved in " + str(totalS) + " s")
